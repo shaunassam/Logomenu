@@ -22,7 +22,7 @@
     </key>
 
     <key type="s" name="menu-button-extensions-app">
-      <default>"org.gnome.Extensions.desktop"</default>
+      <default>"com.mattjakeman.ExtensionManager.desktop"</default>
       <summary>Preffered Extensions app</summary>
       <description>Change to preffered Extensions app.</description>
     </key>
@@ -34,7 +34,7 @@
     </key>
 
     <key type="s" name="menu-button-terminal">
-      <default>"gnome-terminal"</default>
+      <default>"ptyxis"</default>
       <summary>Menu Button Terminal</summary>
       <description>Change the Menu Button Terminal.</description>
     </key>
@@ -89,7 +89,7 @@
 
 
     <key type="b" name="symbolic-icon">
-      <default>true</default>
+      <default>false</default>
       <summary>Toggle if user chose symbolic or coloured distro logo</summary>
       <description>Toggle if user chose symbolic or coloured distro logo.</description>
     </key>

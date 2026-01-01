@@ -24,7 +24,7 @@ Quick access menu for the GNOME panel with options that help ease the workflow f
 %if 0%{?fedora} == 38
 %setup -b 1 -n Logomenu-gnome-44
 %else
-%setup -n Logomenu-main
+%setup -n Logomenu-22
 %endif
 
 %install

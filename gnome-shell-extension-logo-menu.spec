@@ -7,8 +7,8 @@ Summary:       Quick access menu for the GNOME panel
 
 Group:         User Interface/Desktops
 License:       GPLv2
-URL:           https://github.com/ublue-os/Logomenu
-Source:       https://github.com/shaunassam/Logomenu/archive/refs/tags/v22.tar.gz
+URL:           https://github.com/shaunassam/Logomenu
+Source:        https://github.com/shaunassam/Logomenu/archive/refs/tags/v22.tar.gz
 BuildArch:     noarch
 
 BuildRequires: unzip
@@ -36,8 +36,6 @@ glib-compile-schemas %{buildroot}%{_datadir}/gnome-shell/extensions/%{uuid}/sche
 %files
 %license LICENSE
 %{_datadir}/gnome-shell/extensions/%{uuid}/
-%{_bindir}/distroshelf-helper
-%{_bindir}/missioncenter-helper
 
 %changelog
 * Thu Jan 01 2026 Shaun Assam <sassam@fedoraproject.org> - 1.0.0.git.320.ab8b37e5-1

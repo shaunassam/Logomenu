@@ -8,8 +8,7 @@ Summary:       Quick access menu for the GNOME panel
 Group:         User Interface/Desktops
 License:       GPLv2
 URL:           https://github.com/ublue-os/Logomenu
-Source0:       %{url}/archive/refs/heads/main.tar.gz
-Source1:       %{url}/archive/refs/heads/gnome-44.tar.gz
+Source:       https://github.com/shaunassam/Logomenu/archive/refs/tags/v22.tar.gz
 BuildArch:     noarch
 
 BuildRequires: unzip

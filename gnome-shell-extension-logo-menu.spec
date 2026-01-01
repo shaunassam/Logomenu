@@ -29,8 +29,6 @@ Quick access menu for the GNOME panel with options that help ease the workflow f
 
 %install
 mkdir -p %{buildroot}%{_bindir}
-mv distroshelf-helper %{buildroot}%{_bindir}
-mv missioncenter-helper %{buildroot}%{_bindir}
 mkdir -p %{buildroot}%{_datadir}/gnome-shell/extensions/%{uuid}
 mv po PrefsLib Resources schemas *.js *.json *.css %{buildroot}%{_datadir}/gnome-shell/extensions/%{uuid}
 glib-compile-schemas %{buildroot}%{_datadir}/gnome-shell/extensions/%{uuid}/schemas/
@@ -42,3 +40,6 @@ glib-compile-schemas %{buildroot}%{_datadir}/gnome-shell/extensions/%{uuid}/sche
 %{_bindir}/missioncenter-helper
 
 %changelog
+* Thu Jan 01 2026 Shaun Assam <sassam@fedoraproject.org> - 1.0.0.git.320.ab8b37e5-1
+- Created to use for TuqueOS
+- Customized schema for default Fedora logo
